@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+database/medidas_training
+database/medidas_predict

@@ -64,7 +64,7 @@ class spectra_SNV(spectra):
 
 #Definitions
 
-def libsmean(DIR_Pr, spectra, HEADER, DELIM = ';'):
+def libsmean(DIR_Pr, spectra, HEADER = 41, DELIM = ';'):
     print(DIR_Pr)
     A = spectra(DIR_Pr/'_ (1).esf', HEADER=HEADER, DELIM=DELIM)
     M_SNV = np.zeros(np.shape(A.intensity)[0])
